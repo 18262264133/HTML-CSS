@@ -1,0 +1,107 @@
+/*header区域*/
+#waper{
+	height:270px;
+	background:url(../images/bnr.jpg) no-repeat center top /cover;
+	overflow:hidden;
+	}
+header{
+	height: 164px;
+	background-color: #fff;
+	margin-top: 48px;
+	padding: 0 47px;
+	}
+.header_t{
+	height: 103px;
+	border-bottom: 1px solid #f9f9f9;
+	}
+.header_t .logo{
+	padding-top:31px;
+	float: left;
+	}
+.header_t .logo a{
+	display: inline-block;
+	color: #dbc585;
+	font-size: 45px;
+	font-weight:normal;
+	}
+.header_t .logo a span{
+	color: #000;
+	font-size:36px;
+	}
+.header_t .logo a .food{
+	color: #478d06;
+	font-size: 45px;
+	}
+.contact{
+	float: right;
+	height: 99px;
+	line-height: 99px;
+	padding-top: 4px;
+	}
+.contact a{
+	margin-right: 70px;
+	color: #000;
+	}
+.contact a:hover{
+	color:#478d06;
+	}
+.contact p{
+	display: inline-block;
+	}
+.contact span{
+	padding-right: 6px;
+	}
+.header_b{
+	height:60px;
+	}
+.header_b li{
+	float:left;
+	padding:20px 54px 0;
+	}
+.header_b li a{
+	display:block;
+	height:20px;
+	color:#7e7b77;
+	font-size:18px;
+	transition:all 1s;
+	}
+.header_b li a:hover{
+	color:#478d06;
+	transform:scale(1.5);
+	}
+/**/
+#shortcodes{
+	height:645px;
+	}
+#shortcodes h2{
+	padding-top:12px;
+	line-height:115px;
+	color:#dbc585;
+	text-align:center;
+	}
+#shortcodes span{
+	display:block;
+	font-size:30px;
+	color:#000;
+	margin-bottom:49px;
+	}
+.shor_b{
+	padding-left:17px;
+	}
+.font{
+	padding-bottom:43px;
+	}
+.font h1,.font h2,.font h3,.font h4,.font h5,.font h6{
+	float:left;
+	color:#999999;
+	font-weight:normal;
+	}
+.font p{
+	float:right;
+	color:#999999;
+	}
+#shortcodes .font h2{
+	padding-top:0;
+	line-height:normal;
+	color:#999999;
+	}

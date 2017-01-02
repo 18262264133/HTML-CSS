@@ -1,0 +1,192 @@
+/*header区域*/
+#waper{
+	height:270px;
+	background:url(../images/bnr.jpg) no-repeat center top /cover;
+	overflow:hidden;
+	}
+header{
+	height: 164px;
+	background-color: #fff;
+	margin-top: 48px;
+	padding: 0 47px;
+	}
+.header_t{
+	height: 103px;
+	border-bottom: 1px solid #f9f9f9;
+	}
+.header_t .logo{
+	padding-top:31px;
+	float: left;
+	}
+.header_t .logo a{
+	display: inline-block;
+	color: #dbc585;
+	font-size: 45px;
+	font-weight:normal;
+	}
+.header_t .logo a span{
+	color: #000;
+	font-size:36px;
+	}
+.header_t .logo a .food{
+	color: #478d06;
+	font-size: 45px;
+	}
+.contact{
+	float: right;
+	height: 99px;
+	line-height: 99px;
+	padding-top: 4px;
+	}
+.contact a{
+	margin-right: 70px;
+	color: #000;
+	}
+.contact a:hover{
+	color:#478d06;
+	}
+.contact p{
+	display: inline-block;
+	}
+.contact span{
+	padding-right: 6px;
+	}
+.header_b{
+	height:60px;
+	}
+.header_b li{
+	float:left;
+	padding:20px 54px 0;
+	}
+.header_b li a{
+	display:block;
+	height:20px;
+	color:#7e7b77;
+	font-size:18px;
+	transition:all 1s;
+	}
+.header_b li a:hover{
+	color:#478d06;
+	transform:scale(1.5);
+	}
+/**/
+#about{
+	height:472px;
+	}
+#about h2{
+	line-height:101px;
+	color:#dbc585;
+	text-align:center;
+	padding-top:19px;
+	}
+.about_infor_l{
+	float:left;
+	width:650px;
+	padding-left:15px;
+	}
+.about_infor_l h3{
+	line-height:31px;
+	padding:5px 0 11px;
+	color:#478d34;
+	animation:run1 2s;
+	}
+.about_infor_l p{
+	line-height:25px;
+	color:#99999b;
+	padding-bottom:20px;
+	animation:run2 2s;
+	}
+.about_infor_l li{
+	padding-left:20px;
+	margin-bottom:23px;
+	color:#99999b;
+	background:url(../images/icon3.png) no-repeat  left center;
+	animation:run3 2s;
+	}
+@keyframes run1{
+		0%{
+			transform:translateX(-200%);
+			opacity:0;
+			}
+	  100%{
+		  	transform:translateX(0);
+			opacity:1;
+			}
+	}
+@keyframes run2{
+		0%{
+			transform:translateY(-200%);
+			opacity:0;
+			}
+	  100%{
+		  	transform:translateY(0);
+			opacity:1;
+			}
+	}
+@keyframes run3{
+		0%{
+			transform:translateX(200%);
+			opacity:0;
+			}
+	  100%{
+		  	transform:translateX(0);
+			opacity:1;
+			}
+	}
+
+
+.about_pic{
+	float:left;
+	width:475px;
+	overflow:hidden;
+	animation:run3 2s;
+	transition:all 1s;
+	}
+.about_pic img{
+	transition:all 1s;
+	}
+.about_pic img:hover{
+	transform:scale(1.2);
+	}
+#banner{
+	height:390px;
+	background:url(../images/slid.jpg) no-repeat top center /cover;
+	text-align:center;
+	}
+#banner h3{
+	line-height:70px;
+	padding:91px 0 24px;
+	color:#fff;
+	font-size:60px;
+	font-weight:normal;
+	}
+#banner p{
+	line-height:30px;
+	color:#fff;
+	}
+#team{
+	height:535px;
+	}
+#team h2{
+	line-height:134px;
+	padding-top:3px;
+	color:#dbc585;
+	text-align:center;
+	}
+.team_p{
+	float:left;
+	width:250px;
+	margin-right:35px;
+	}
+.team_p h4{
+	line-height:43px;
+	padding-top:5px;
+	color:#478d06;
+	font-weight:normal;
+	font-size:21px;
+	}
+.team_p p{
+	line-height:26px;
+	color:#999ca3;
+	font-size:14px;
+	}
